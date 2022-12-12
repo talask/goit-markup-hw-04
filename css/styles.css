@@ -170,6 +170,9 @@ img {
 .hero {
     padding-top:192px;
     text-align: center;
+    /* background: linear-gradient(var(--title-color), var(--title-color)); */
+    background-image: linear-gradient(var(--title-color) 0, var(--title-color) 70%),
+    url('../images/people-office.jpg');
    
 }
 
