@@ -146,8 +146,20 @@ img {
 }
 
 .footer {
+    background-color: var(--footer-hero-color);
     padding: 100px 0;
+     
 }
+
+.footer .container {
+    display: flex;
+     gap: 120px;
+}
+
+.footer .wrapper {
+    padding: 0;  
+}
+
 .logo-footer {
     color: var(--footer-descr-color);
     margin-bottom: 16px;
@@ -158,25 +170,28 @@ img {
     max-width: 272px;
 }
 
+.footer-social-title {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+
 /* ----- main ----- */
 
 /* ----- hero ----- */
 
-.hero,
-.footer{
-    background-color: var(--footer-hero-color);
-}
-
 .hero {
     padding-top:192px;
     text-align: center;
-    /* background: linear-gradient(var(--title-color), var(--title-color)); */
-    background-image: linear-gradient(var(--title-color) 0, var(--title-color) 70%),
-    url('../images/people-office.jpg');
+    max-width: 1440px;
+    height: 603px;
+    background-image: linear-gradient(rgba(47, 47, 66, 0.7), 
+    rgba(47, 47, 66, 0.7)), url('../images/people-office.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
    
 }
-
-
 
 .hero-title {
     font-weight: 600;
@@ -208,6 +223,7 @@ img {
     padding-bottom: 0;
 }
 
+.clients-list,
 .benefits-list,
 .works-list,
 .team-list,
@@ -242,6 +258,7 @@ img {
     margin-bottom: 8px;
 }
 
+.clients-title,
 .works-title,
 .team-title {
     font-weight: 600;
