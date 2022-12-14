@@ -270,6 +270,17 @@ img {
          
 }
 
+.client-item {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px; 
+}
+
+/* .client-item .link{
+    width: 100%;
+    height: 100%;
+} */
 /* ----- Portfolio ----- */
 .portfolio {
     padding-top: 96px;
