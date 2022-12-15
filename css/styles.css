@@ -282,7 +282,7 @@ img {
 }
 
 .benefits-item.astronaut::before {
-    content: url('../images/icons.svg#icon-astronaut');
+    content: url(../images/icons.svg#icon-astronaut);
 }
 
 .team-social-list,
@@ -330,9 +330,9 @@ img {
          
 }
 
-/* .team-social-list {
-    justify-content: center;
-} */
+.team-descr {
+    margin-bottom: 8px;
+}
 
 .card-social-link{
     width: 100%;
