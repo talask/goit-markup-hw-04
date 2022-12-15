@@ -276,7 +276,7 @@ img {
 }
 
 .benefits-item.antenna::before {
-    content: 'url(../images/icons.svg#icon-antenna)';
+    content: url('../images/icons.svg#icon-antenna');
 }
 
 .benefits-item.diagram::before {
