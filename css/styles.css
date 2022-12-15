@@ -88,6 +88,10 @@ img {
     padding: 0 15px;
 }
 
+.wrapper {
+    padding: 32px 16px;
+}
+
 /* ----- header, footer ----- */
 
 .header {
@@ -254,6 +258,33 @@ img {
     padding-bottom: 0;
 }
 
+.benefits-item::before {
+    content: 'fff';
+    display: block;
+    width: 100%;
+    height: 112px;
+    background-color: #F4F4FD;
+    /* background-color: var(--dark-color); */
+    padding: 24px auto;
+    margin-bottom: 8px;
+}
+
+.benefits-item.clock::before {
+    content: url('../images/icons.svg#icon-clock');
+}
+
+.benefits-item.antenna::before {
+    content: url('../images/icons.svg#icon-antenna');
+}
+
+.benefits-item.diagram::before {
+    content: url('../images/icons.svg#icon-diagram');
+}
+
+.benefits-item.astronaut::before {
+    content: url('../images/icons.svg#icon-astronaut');
+}
+
 .team-social-list,
 .clients-list,
 .benefits-list,
@@ -274,9 +305,6 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.wrapper {
-    padding: 32px 16px;
-}
 .team .wrapper {
     text-align: center;
 }
