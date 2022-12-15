@@ -269,7 +269,7 @@ img {
 .icon-decoration {
     width: 64px;
     height: 64px;
-    margin: 24px auto;
+    margin: 24px 100px;
 }
 
 .team-social-list,
