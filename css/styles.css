@@ -274,7 +274,7 @@ img {
 }
 
 .benefits-item.antenna::before {
-    content: url('../images/icons.svg#icon-antenna');
+    content: 'url(../images/icons.svg#icon-antenna)';
 }
 
 .benefits-item.diagram::before {
@@ -282,7 +282,7 @@ img {
 }
 
 .benefits-item.astronaut::before {
-    content: url(../images/icons.svg#icon-astronaut);
+    content: url('../images/icons.svg#icon-astronaut');
 }
 
 .team-social-list,
