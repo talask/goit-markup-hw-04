@@ -1,3 +1,4 @@
+@ -1,342 +0,0 @@
 :root {
     --page-color:#434455;
     --title-color: #2E2F42;
@@ -177,36 +178,7 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-social-list {
-    display: flex;
-    gap: 16px;
-}
 
-.team-social-item,
-.social-item {
-    width: 40px;
-    height: 40px;
-}
-
-.social-link {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: var(--dark-color);
-    color: var(--footer-descr-color);
-}
-
-.social-link:hover {
-    background-color: var(--green-color);
-}
-
-.icon-social {
-    width: 24px;
-    height: 24px;
-    margin-top: 8px;
-    margin-left: 8px;
-    fill: currentColor;
-}
 /* ----- main ----- */
 
 /* ----- hero ----- */
@@ -254,7 +226,6 @@ img {
     padding-bottom: 0;
 }
 
-.team-social-list,
 .clients-list,
 .benefits-list,
 .works-list,
@@ -302,53 +273,13 @@ img {
          
 }
 
-/* .team-social-list {
-    justify-content: center;
-} */
-
-.card-social-link{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: var(--logo-web-color);
-    color: var(--logo-footer-color);
-   
-}
-
-.team .icon-social {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
-    margin: 12px auto;
-    /*background-position: 50% 50%;*/
-}
-
 .client-item {
-    color: #8E8F99;
     width: 168px;
     height: 88px;
-    
-}
-
-.client-link {
-    width: 100%;
-    height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px; 
 }
 
-.client-link:hover {
-    border: 1px solid var(--logo-web-color);
-    color:  var(--logo-web-color);
-}
-
-.client-icon {
-    width: 104px;
-    height: 56px;
-    fill: currentColor;
-    margin-top: 16px;
-    margin-left: 32px;
-}
 
 /* .client-item .link{
     width: 100%;
@@ -405,17 +336,4 @@ img {
 
 
 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
