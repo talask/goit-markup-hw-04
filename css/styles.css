@@ -51,6 +51,7 @@ img {
 }
 
 /* ----- common ----- */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -216,7 +217,7 @@ img {
 /* ----- hero ----- */
 
 .hero {
-    padding-top:192px;
+    padding-top: 192px;
     text-align: center;
     max-width: 1440px;
     height: 603px;
@@ -254,6 +255,7 @@ img {
     background-color: var(--hero-click-color);
 }
 /* ----- section ----- */
+
 .benefits{
     padding-bottom: 0;
 }
@@ -366,6 +368,7 @@ img {
 }
 
 /* ----- Portfolio ----- */
+
 .portfolio {
     padding-top: 96px;
 }
@@ -403,7 +406,7 @@ img {
     row-gap: 48px;
 }
 
-.views-item {
+.views-item  {
     border-bottom: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
